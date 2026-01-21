@@ -14,7 +14,7 @@ The complete schematic capture and PCB layout were carried out in **Altium Desig
 
 The following diagram illustrates the high-level operational workflow of the STM32-based IMU module, including power delivery, motion sensing, data processing, and host communication.
 
-![System Workflow Diagram](Docs/Project Files/STM-32 Flow.png)
+![System Workflow Diagram](Docs/Project%20Files/STM-32%20Flow.png)
 
 ---
 
