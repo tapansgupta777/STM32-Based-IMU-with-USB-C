@@ -16,8 +16,6 @@ The following diagram illustrates the high-level operational workflow of the STM
 
 ![System Workflow Diagram](Docs/Project Files/STM-32 Flow.png)
 
-> *Note: Replace `docs/workflow_diagram.png` with the actual relative path to your image in the repository.*
-
 ---
 
 ### 3. Key Specifications
