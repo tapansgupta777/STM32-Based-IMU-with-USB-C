@@ -10,7 +10,17 @@ The complete schematic capture and PCB layout were carried out in **Altium Desig
 
 ---
 
-### 2. Key Specifications
+### 2. System Workflow
+
+The following diagram illustrates the high-level operational workflow of the STM32-based IMU module, including power delivery, motion sensing, data processing, and host communication.
+
+![System Workflow Diagram](Docs/Project Files/STM-32 Flow.png)
+
+> *Note: Replace `docs/workflow_diagram.png` with the actual relative path to your image in the repository.*
+
+---
+
+### 3. Key Specifications
 
 **Microcontroller**
 - STM32F411CEU6 (ARM Cortex-M4 with floating-point unit support)
@@ -38,9 +48,15 @@ This multilayer stack-up enhances signal integrity, minimizes EMI, and ensures s
 
 ---
 
-### 3. Design Highlights
+### 4. Design Highlights
 
 - USB-C interface improves durability and usability  
 - Clean power distribution with dedicated ground planes  
 - Compact layout optimized for embedded and motion-tracking use cases  
 - Design choices documented and verified through schematic-to-layout consistency checks
+
+---
+
+### 5. License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
