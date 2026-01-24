@@ -52,6 +52,7 @@ This multilayer stack-up enhances signal integrity, minimizes EMI, and ensures s
 - Clean power distribution with dedicated ground planes  
 - Compact layout optimized for embedded and motion-tracking use cases  
 - Design choices documented and verified through schematic-to-layout consistency checks
+  
   ![Isometric View](Docs/Project%20Files/Isometric.png)
 
 ---
