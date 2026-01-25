@@ -55,6 +55,8 @@ This multilayer stack-up enhances signal integrity, minimizes EMI, and ensures s
 - Compact layout optimized for embedded and motion-tracking use cases  
 - Design choices documented and verified through schematic-to-layout consistency checks
 
+  ![Design](Docs/Project%20Files/design.png)
+
 ---
 
 ### 5. License
