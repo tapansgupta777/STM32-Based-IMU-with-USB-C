@@ -42,6 +42,8 @@ The following diagram illustrates the high-level operational workflow of the STM
   - Layer 3: Dedicated ground plane for noise reduction  
   - Layer 4: Signal routing  
 
+  ![Layer Stack](DDocs/Project%20Files/layer-stack.png)
+
 This multilayer stack-up enhances signal integrity, minimizes EMI, and ensures stable operation of both the microcontroller and inertial sensor.
 
 ---
@@ -52,8 +54,6 @@ This multilayer stack-up enhances signal integrity, minimizes EMI, and ensures s
 - Clean power distribution with dedicated ground planes  
 - Compact layout optimized for embedded and motion-tracking use cases  
 - Design choices documented and verified through schematic-to-layout consistency checks
-  
-  ![Isometric View](Docs/Project%20Files/Isometric.png)
 
 ---
 
