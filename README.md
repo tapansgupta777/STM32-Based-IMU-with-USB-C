@@ -8,7 +8,7 @@ A **USB Type-C interface** is used for both **power delivery and data communicat
 
 The complete schematic and PCB layout were developed in **Altium Designer**, following established industry practices for power integrity, grounding, and multilayer PCB design.
 
-
+---
 
 ## 2. System Workflow
 
