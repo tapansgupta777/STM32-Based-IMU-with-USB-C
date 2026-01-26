@@ -14,7 +14,7 @@ The complete schematic capture and PCB layout were carried out in **Altium Desig
 
 The following diagram illustrates the high-level operational workflow of the STM32-based IMU module, including power delivery, motion sensing, data processing, and host communication.
 
-![System Workflow Diagram](Docs/Project%20Files/STM-32%20Flow.png)
+![System Workflow Diagram](Docs/Images/STM-32%20Flow.png)
 
 ---
 
@@ -42,7 +42,7 @@ The following diagram illustrates the high-level operational workflow of the STM
   - Layer 3: Dedicated ground plane for noise reduction  
   - Layer 4: Signal routing  
 
-  ![Layer Stack](Docs/Project%20Files/layer-stack.png)
+  ![Layer Stack](Docs/Images/layer-stack.png)
 
 This multilayer stack-up enhances signal integrity, minimizes EMI, and ensures stable operation of both the microcontroller and inertial sensor.
 
@@ -55,7 +55,7 @@ This multilayer stack-up enhances signal integrity, minimizes EMI, and ensures s
 - Compact layout optimized for embedded and motion-tracking use cases  
 - Design choices documented and verified through schematic-to-layout consistency checks
 
-  ![Design](Docs/Project%20Files/design.png)
+  ![Design](Docs/Images/design.png)
 
 ---
 
