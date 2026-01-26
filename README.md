@@ -85,32 +85,22 @@ The USB-C port supports both power input and data transfer, enabling a single-ca
 
 The PCB uses a **4-layer stackup** to improve signal integrity and reduce noise.
 
-### Layer Stackup
-
-| Layer | Description |
-|------|------------|
-| Layer 1 | Signal routing (Top) |
-| Layer 2 | Solid ground plane |
-| Layer 3 | Solid ground plane |
-| Layer 4 | Signal routing (Bottom) |
-
-Ground stitching vias are used extensively to:
-- Reduce ground impedance
-- Improve return current paths
-- Minimize EMI
-
-![PCB Layer Stackup Legend](docs/pcb/pcb-stackup.png)
+- Dedicated internal ground planes provide a low-impedance return path
+- Extensive ground stitching vias are used to minimize EMI
+- Sensitive IMU signals are routed away from high-speed USB traces
 
 Board dimensions: **36 cm × 36 cm**
+
+![PCB Layer Stackup & Legend](docs/pcb/pcb-stackup-legend.png)
 
 ---
 
 ## 6. Firmware Overview
 
-The firmware workflow is centered around **STM32CubeIDE**, which was used to:
-- Configure pin assignments
-- Set up clock sources
-- Initialize peripheral interfaces
+The firmware workflow is centered around **STM32CubeIDE**, which was used to configure:
+- MCU pin assignments
+- Clock sources
+- Peripheral initialization
 
 The firmware is intended to:
 - Initialize I²C communication with the IMU
@@ -120,43 +110,29 @@ The firmware is intended to:
 
 ---
 
-## 7. Pin Mapping
+## 7. Power Budget
 
-| Signal | STM32 Pin | Description |
-|------|----------|------------|
-| I2C_SCL | PB6 | IMU clock |
-| I2C_SDA | PB7 | IMU data |
-| IMU_INT | PA0 | IMU interrupt |
-| SWDIO | PA13 | Debug |
-| SWCLK | PA14 | Debug |
-| USB_DP | PA12 | USB D+ |
-| USB_DM | PA11 | USB D− |
+The system operates from a 5 V USB input, regulated to 3.3 V for logic and sensing.
+
+- STM32F411 microcontroller powered from 3.3 V
+- MPU-6050 IMU powered from 3.3 V
+- AMS1117 LDO selected to support the expected load current
+
+![Power Budget Overview](docs/power/power-budget.png)
 
 ---
 
-## 8. Power Budget
-
-| Component | Typical Voltage | Notes |
-|---------|----------------|------|
-| STM32F411 | 3.3 V | MCU core and I/O |
-| MPU-6050 | 3.3 V | Motion sensor |
-| USB Input | 5 V | From USB-C |
-
-The AMS1117 LDO provides sufficient current capacity for the MCU and IMU under normal operating conditions.
-
----
-
-## 9. Testing & Validation
+## 8. Testing & Validation
 
 Design validation focused on:
 - Power rail continuity and voltage regulation
-- USB signal routing and protection
+- USB signal routing and ESD protection
 - I²C connectivity between MCU and IMU
 - Interrupt routing from IMU to MCU
 
 ---
 
-## 10. Known Limitations
+## 9. Known Limitations
 
 - No battery power support
 - No USB-C Power Delivery negotiation
@@ -165,7 +141,7 @@ Design validation focused on:
 
 ---
 
-## 11. Future Improvements
+## 10. Future Improvements
 
 - Addition of USB-C Power Delivery support
 - Integration of higher-precision IMU
@@ -174,9 +150,17 @@ Design validation focused on:
 
 ---
 
+## 11. Bill of Materials (BOM)
+
+The following image provides a detailed overview of the major components used in the design, including the microcontroller, IMU, power regulation, USB-C interface, and protection devices.
+
+![Bill of Materials](docs/bom/bom-overview.png)
+
+---
+
 ## 12. 3D Model & Mechanical
 
-A complete 3D model of the PCB is available for mechanical reference.
+A complete 3D model of the PCB is available for mechanical reference and enclosure design.
 
 ![3D PCB Preview](docs/3d/pcb-3d-preview.png)
 
