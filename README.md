@@ -14,7 +14,7 @@ The complete schematic and PCB layout were developed in **Altium Designer**, fol
 
 The following diagram illustrates the high-level operational workflow of the STM32-based IMU module, including power delivery, motion sensing, data processing, and host communication.
 
-![System Workflow Diagram](docs/diagrams/system-workflow.png)
+![System Workflow Diagram](Docs/Images/STM-32%20Flow.png)
 
 ---
 
@@ -29,7 +29,7 @@ At a system level, the module consists of four primary functional blocks:
 
 The STM32 acts as the central controller, acquiring motion data from the IMU over I²C, processing it in firmware, and transmitting it to an external host via USB.
 
-![System Architecture Diagram](docs/diagrams/system-architecture.png)
+![System Architecture Diagram](Docs/Images/design.png)
 
 ---
 
@@ -91,7 +91,7 @@ The PCB uses a **4-layer stackup** to improve signal integrity and reduce noise.
 
 Board dimensions: **36 cm × 36 cm**
 
-![PCB Layer Stackup & Legend](docs/pcb/pcb-stackup-legend.png)
+![PCB Layer Stackup & Legend](Docs/Images/layer-stack.png)
 
 ---
 
@@ -154,7 +154,7 @@ Design validation focused on:
 
 The following image provides a detailed overview of the major components used in the design, including the microcontroller, IMU, power regulation, USB-C interface, and protection devices.
 
-![Bill of Materials](docs/bom/bom-overview.png)
+![Bill of Materials](Docs/Images/BOM.png)
 
 ---
 
@@ -162,7 +162,7 @@ The following image provides a detailed overview of the major components used in
 
 A complete 3D model of the PCB is available for mechanical reference and enclosure design.
 
-![3D PCB Preview](docs/3d/pcb-3d-preview.png)
+![3D PCB Preview](Docs/Images/3D-preview.png)
 
 Download the 3D model:  
 [PCB STEP Model](docs/3d/stm32-imu-board.step)
