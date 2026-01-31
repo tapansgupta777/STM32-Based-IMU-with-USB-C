@@ -32,7 +32,7 @@ The STM32 acts as the central controller, acquiring motion data from the IMU ove
 <div style="width: 100%;">
   <div style="float: left; width: 50%;">
     <h3>Design Notes</h3>
-    <p>This is the explanatory text for the schematic aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.</p>
+    <p>This is the explanatory text for the schematic aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.</p>
   </div>
   <div style="float: right; width: 50%;">
     <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="400"/>
