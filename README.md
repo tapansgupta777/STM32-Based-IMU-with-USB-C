@@ -49,8 +49,6 @@ Key design aspects include:
 
 The MCU is configured as a USB device and manages sensor communication, data handling, and host interaction.
 
-![Design Specs](Docs/Images/design.png)
-
 ---
 
 ### 4.2 IMU Subsystem
@@ -95,8 +93,10 @@ The PCB uses a **4-layer stackup** to improve signal integrity and reduce noise.
 
 Board dimensions: **36 cm × 36 cm**
 
-![PCB Layer Stackup & Legend](Docs/Images/layer-stack.png)
-
+<p float="left">
+  <img src="Docs/Images/layer-stack.png" alt="PCB Layer Stackup & Legend" width="400"/>
+  <img src="Docs/Images/design.png" alt="Design Specs" width="400"/>
+</p>
 ---
 
 ## 6. Firmware Overview
