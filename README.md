@@ -150,25 +150,7 @@ Design validation focused on:
 
 ---
 
-## 9. Known Limitations
-
-- No battery power support
-- No USB-C Power Delivery negotiation
-- Designed primarily for USB-powered operation
-- Limited expansion interfaces
-
----
-
-## 10. Future Improvements
-
-- Addition of USB-C Power Delivery support
-- Integration of higher-precision IMU
-- On-board non-volatile memory
-- Expanded communication interfaces (SPI, CAN)
-
----
-
-## 11. Bill of Materials (BOM)
+## 9. Bill of Materials (BOM)
 
 The following image provides a detailed overview of the major components used in the design, including the microcontroller, IMU, power regulation, USB-C interface, and protection devices.
 
@@ -176,7 +158,7 @@ The following image provides a detailed overview of the major components used in
 
 ---
 
-## 12. 3D Model
+## 10. 3D Model
 
 A complete 3D model of the PCB is available for mechanical reference and enclosure design.
 
@@ -190,7 +172,7 @@ Download the 3D model:
 
 ---
 
-## 13. License
+## 11. License
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for details.
