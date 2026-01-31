@@ -31,7 +31,6 @@ The STM32 acts as the central controller, acquiring motion data from the IMU ove
 
 | **Design Notes** <br> This is some explanatory text about the schematic. | <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="400"/> |
 |---------------------------------|--------------------------------|
-| **Another Section** <br> More notes about a different schematic or design block. | <img src="Docs/Images/Sheet-888.1.2026.png" alt="Design 2" width="300"/> |
 
 ---
 
