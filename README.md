@@ -173,7 +173,7 @@ A complete 3D model of the PCB is available for mechanical reference and enclosu
 
 <p float="left">
   <img src="Docs/Images/3D-preview.png" width="412"/>
-  <img src="Docs/Images/Layout" width="412"/>
+  <img src="Docs/Images/Layout.png" width="412"/>
 </p>
 
 Download the 3D model:  
