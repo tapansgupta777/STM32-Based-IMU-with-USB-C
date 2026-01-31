@@ -29,16 +29,9 @@ At a system level, the module consists of four primary functional blocks:
 
 The STM32 acts as the central controller, acquiring motion data from the IMU over I²C, processing it in firmware, and transmitting it to an external host via USB.
 
-<p>
-  <span style="float: left; width: 50%;">
-    <b>Design Notes:</b><br>
-    This is the explanatory text for the schematic.
-  </span>
-  <span style="float: right; width: 50%;">
-    <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="400"/>
-  </span>
-</p>
-
+| Description | Preview |
+|-------------|---------|
+| **Design Notes** <br> This is some explanatory text about the schematic. You can add more details here, like what each block represents or why certain components are used. | <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="400"/> |
 ---
 
 ## 4. Hardware Design
