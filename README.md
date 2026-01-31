@@ -31,16 +31,16 @@ The STM32 acts as the central controller, acquiring motion data from the IMU ove
 
 |  | Schematic |
 |--|-----------|
-| - **MCU:** STM32F411CEU6 with 24MHz external crystal and SWD via Tag-Connect.  
-- **Sensor:** MPU-6050 6-axis IMU via I2C (`PB8`/`PB9`).  
-- **USB-C:** With ESD protection and 5.1kΩ CC pull-downs.  
-- **Power:** AMS1117-3.3V LDO converts 5V VBUS to 3.3V.  
-- **I2C Addr:** `0x68` (AD0 to GND).  
-- **Interrupts:** `IMU_INT` on `PB12`.  
-- **Indicators:** Power LED + Status LED (`PB13`).  
-- **Decoupling:** 100nF/2.2µF filter network.  
-- **Routing:** USB 90Ω differential impedance.  
-- **IO Layout:** Compact 6-pin header. | <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="1000"/> |
+| &nbsp;&nbsp;• **MCU:** STM32F411CEU6 with 24MHz external crystal and SWD via Tag-Connect. <br> 
+&nbsp;&nbsp;• **Sensor:** MPU-6050 6-axis IMU via I2C (`PB8`/`PB9`). <br> 
+&nbsp;&nbsp;• **USB-C:** With ESD protection and 5.1kΩ CC pull-downs. <br> 
+&nbsp;&nbsp;• **Power:** AMS1117-3.3V LDO converts 5V VBUS to 3.3V. <br> 
+&nbsp;&nbsp;• **I2C Addr:** `0x68` (AD0 to GND). <br> 
+&nbsp;&nbsp;• **Interrupts:** `IMU_INT` on `PB12`. <br> 
+&nbsp;&nbsp;• **Indicators:** Power LED + Status LED (`PB13`). <br> 
+&nbsp;&nbsp;• **Decoupling:** 100nF/2.2µF filter network. <br> 
+&nbsp;&nbsp;• **Routing:** USB 90Ω differential impedance. <br> 
+&nbsp;&nbsp;• **IO Layout:** Compact 6-pin header. | <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="1000"/> |
 
 ---
 
