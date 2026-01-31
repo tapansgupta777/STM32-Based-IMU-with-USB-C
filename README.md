@@ -103,6 +103,7 @@ Board dimensions: **36 cm × 36 cm**
   <img src="Docs/Images/Layer-3.png" width="412"/>
   <img src="Docs/Images/Bottom-Layer.png" width="412"/>
 </p>
+
 ---
 
 ## 6. Firmware Overview
@@ -166,11 +167,13 @@ The following image provides a detailed overview of the major components used in
 
 ---
 
-## 12. 3D Model & Mechanical
+## 12. 3D Model
 
 A complete 3D model of the PCB is available for mechanical reference and enclosure design.
 
 ![3D PCB Preview](Docs/Images/3D-preview.png)
+![Layout Preview](Docs/Images/Layout.png)
+
 
 Download the 3D model:  
 [PCB STEP Model](docs/3d/stm32-imu-board.step)
