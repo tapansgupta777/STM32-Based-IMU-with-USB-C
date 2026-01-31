@@ -29,17 +29,16 @@ At a system level, the module consists of four primary functional blocks:
 
 The STM32 acts as the central controller, acquiring motion data from the IMU over I²C, processing it in firmware, and transmitting it to an external host via USB.
 
-| - **MCU:** STM32F411CEU6 with 24MHz external crystal and SWD via Tag-Connect.
-- **Sensor:** MPU-6050 6-axis IMU (Accel/Gyro) interfaced via I2C (`PB8`/`PB9`).
-- **USB-C:** Features ESD protection (TVS diodes) and 5.1kΩ CC pull-downs for PD.
-- **Power:** AMS1117-3.3V LDO converts 5V VBUS to 3.3V system rail.
-- **I2C Addr:** Hardware configured to `0x68` (AD0 to GND).
-- **Interrupts:** `IMU_INT` connected to `PB12` for data-ready signaling.
-- **Indicators:** Dedicated Power LED and a programmable Status LED on `PB13`.
-- **Decoupling:** Multi-stage 100nF/2.2µF filter network for low-noise performance.
-- **Routing:** USB signals require 90Ω differential impedance pairing.
-- **IO Layout:** Compact 6-pin peripheral header for external expansion.. | <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="700"/> |
-|--------------------|--------------------------------|
+| - **MCU:** STM32F411CEU6 with 24MHz external crystal and SWD via Tag-Connect. <br> 
+- **Sensor:** MPU-6050 6-axis IMU (Accel/Gyro) interfaced via I2C (`PB8`/`PB9`). <br> 
+- **USB-C:** Features ESD protection (TVS diodes) and 5.1kΩ CC pull-downs for PD. <br> 
+- **Power:** AMS1117-3.3V LDO converts 5V VBUS to 3.3V system rail. <br> 
+- **I2C Addr:** Hardware configured to `0x68` (AD0 to GND). <br> 
+- **Interrupts:** `IMU_INT` connected to `PB12` for data-ready signaling. <br> 
+- **Indicators:** Dedicated Power LED and a programmable Status LED on `PB13`. <br> 
+- **Decoupling:** Multi-stage 100nF/2.2µF filter network for low-noise performance. <br> 
+- **Routing:** USB signals require 90Ω differential impedance pairing. <br> 
+- **IO Layout:** Compact 6-pin peripheral header for external expansion. | <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="700"/> |
 
 ---
 
