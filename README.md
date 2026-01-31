@@ -38,7 +38,7 @@ The STM32 acts as the central controller, acquiring motion data from the IMU ove
 - **Indicators:** Dedicated Power LED and a programmable Status LED on `PB13`. <br> 
 - **Decoupling:** Multi-stage 100nF/2.2µF filter network for low-noise performance. <br> 
 - **Routing:** USB signals require 90Ω differential impedance pairing. <br> 
-- **IO Layout:** Compact 6-pin peripheral header for external expansion. | <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="700"/> |
+- **IO Layout:** Compact 6-pin peripheral header for external expansion. | <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="600"/> |
 
 ---
 
