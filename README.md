@@ -98,12 +98,12 @@ Board dimensions: **36 cm × 36 cm**
 </p>
 
 <p float="left">
-  <img src="Docs/Images/Top-Layer.png" width="200"/>
-  <img src="Docs/Images/Layer-2.png" width="200"/>
+  <img src="Docs/Images/Top-Layer.png" width="400"/>
+  <img src="Docs/Images/Layer-2.png" width="400"/>
 </p>
 <p float="left">
-  <img src="Docs/Images/Layer-3.png" width="200"/>
-  <img src="Docs/Images/Bottom-Layer.png" width="200"/>
+  <img src="Docs/Images/Layer-3.png" width="400"/>
+  <img src="Docs/Images/Bottom-Layer.png" width="400"/>
 </p>
 ---
 
