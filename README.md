@@ -29,9 +29,10 @@ At a system level, the module consists of four primary functional blocks:
 
 The STM32 acts as the central controller, acquiring motion data from the IMU over I²C, processing it in firmware, and transmitting it to an external host via USB.
 
-| Summary | Schematic |
-|-------|-----------|
-| • **MCU:** STM32F411CEU6 with 24MHz external crystal and SWD via Tag-Connect. <br> • **Sensor:** MPU-6050 6-axis IMU via I2C (`PB8`/`PB9`). <br> • **USB-C:** With ESD protection and 5.1kΩ CC pull-downs. <br> • **Power:** AMS1117-3.3V LDO converts 5V VBUS to 3.3V. <br> • **I2C Addr:** `0x68` (AD0 to GND). <br> • **Interrupts:** `IMU_INT` on `PB12`. <br> • **Indicators:** Power LED + Status LED (`PB13`). <br> • **Decoupling:** 100nF/2.2µF filter network. <br> • **Routing:** USB 90Ω differential impedance. <br> • **IO Layout:** Compact 6-pin header. | <img src="Docs/Images/Sheet-777.1.2026.png" alt="Design" width="1000"/> |
+| Schematic | Summary |
+|-----------|---------|
+| <img src="Docs/Images/layer-stack.png" alt="PCB Layer Stackup & Legend" width="600"/> | • **MCU:** STM32F411CEU6 with 24MHz external crystal and SWD via Tag-Connect. <br> • **Sensor:** MPU-6050 6-axis IMU via I2C (`PB8`/`PB9`). <br> • **USB-C:** With ESD protection and 5.1kΩ CC pull-downs. <br> • **Power:** AMS1117-3.3V LDO converts 5V VBUS to 3.3V. <br> • **I2C Addr:** `0x68` (AD0 to GND). <br> • **Interrupts:** `IMU_INT` on `PB12`. <br> • **Indicators:** Power LED + Status LED (`PB13`). <br> • **Decoupling:** 100nF/2.2µF filter network. <br> • **Routing:** USB 90Ω differential impedance. <br> • **IO Layout:** Compact 6-pin header. |
+| <img src="Docs/Images/design.png" alt="Design Specs" width="600"/> | |
 
 ---
 
@@ -93,10 +94,21 @@ The PCB uses a **4-layer stackup** to improve signal integrity and reduce noise.
 
 Board dimensions: **36 cm × 36 cm**
 
-<p float="left">
-  <img src="Docs/Images/layer-stack.png" alt="PCB Layer Stackup & Legend" width="400"/>
-  <img src="Docs/Images/design.png" alt="Design Specs" width="400"/>
-</p>
+| Notes | Schematic |
+|-------|-----------|
+| • **MCU:** STM32F411CEU6 with 24MHz external crystal and SWD via Tag-Connect. <br> 
+• **Sensor:** MPU-6050 6-axis IMU via I2C (`PB8`/`PB9`). <br> 
+• **USB-C:** With ESD protection and 5.1kΩ CC pull-downs. <br> 
+• **Power:** AMS1117-3.3V LDO converts 5V VBUS to 3.3V. <br> 
+• **I2C Addr:** `0x68` (AD0 to GND). <br> 
+• **Interrupts:** `IMU_INT` on `PB12`. <br> 
+• **Indicators:** Power LED + Status LED (`PB13`). <br> 
+• **Decoupling:** 100nF/2.2µF filter network. <br> 
+• **Routing:** USB 90Ω differential impedance. <br> 
+• **IO Layout:** Compact 6-pin header. | <img src="Docs/Images/layer-stack.png" alt="PCB Layer Stackup & Legend" width="600"/> |
+|       | <hr> |
+|       | <img src="Docs/Images/design.png" alt="Design Specs" width="600"/> |
+
 ---
 
 ## 6. Firmware Overview
