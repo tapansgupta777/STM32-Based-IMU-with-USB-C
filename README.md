@@ -2,6 +2,13 @@
 
 ## 1. Project Overview
 
+> [!NOTE]
+> This project is a result of independent, self-directed study into professional PCB and circuit design. 
+> I have implemented an industry-standard design flow modeled after professional methodologies, 
+> such as those shared by Phil’s Lab. As this is a learning-focused implementation, 
+> certain oversights or errors may exist. I highly value constructive feedback, 
+> technical suggestions, or design recommendations to further my growth in this field.
+
 This project presents a **custom STM32-based inertial measurement unit (IMU) module** built around the **STM32F411CEU6** microcontroller and the **MPU-6050** six-axis motion sensor. The board is designed as a compact embedded platform for motion sensing, orientation tracking, and IMU data acquisition.
 
 A **USB Type-C interface** is used for both **power delivery and data communication**, allowing IMU data to be transferred directly to a host system while providing a robust and reversible physical connector. The design integrates USB protection circuitry and a regulated power architecture suitable for reliable embedded operation.
