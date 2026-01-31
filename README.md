@@ -130,8 +130,6 @@ The system operates from a 5 V USB input, regulated to 3.3 V for logic and sensi
 - MPU-6050 IMU powered from 3.3 V
 - AMS1117 LDO selected to support the expected load current
 
-![Power Budget Overview](docs/power/power-budget.png)
-
 ---
 
 ## 8. Testing & Validation
