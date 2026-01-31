@@ -93,7 +93,9 @@ The PCB uses a **4-layer stackup** to improve signal integrity and reduce noise.
 
 Board dimensions: **36 cm × 36 cm**
 
-![PCB Layer Stackup & Legend](Docs/Images/layer-stack.png)
+<p float="left">
+  <img src="Docs/Images/layer-stack.png" width="1200"/>
+</p>
 
 <p float="left">
   <img src="Docs/Images/Top-Layer.png" width="500"/>
