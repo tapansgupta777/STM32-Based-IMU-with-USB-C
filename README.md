@@ -172,8 +172,8 @@ The following image provides a detailed overview of the major components used in
 A complete 3D model of the PCB is available for mechanical reference and enclosure design.
 
 <p float="left">
-  <img src="Docs/Images/3D-preview.png" width="442"/>
-  <img src="Docs/Images/Layout.png" width="382"/>
+  <img src="Docs/Images/3D-preview.png" width="443"/>
+  <img src="Docs/Images/Layout.png" width="381"/>
 </p>
 
 Download the 3D model:  
