@@ -100,8 +100,8 @@ Board dimensions: **36 cm × 36 cm**
   <img src="Docs/Images/Layer-2.png" width="412"/>
 </p>
 <p float="left">
-  <img src="Docs/Images/Layer-3.png" width="500"/>
-  <img src="Docs/Images/Bottom-Layer.png" width="324"/>
+  <img src="Docs/Images/Layer-3.png" width="412"/>
+  <img src="Docs/Images/Bottom-Layer.png" width="412"/>
 </p>
 
 ---
@@ -172,8 +172,8 @@ The following image provides a detailed overview of the major components used in
 A complete 3D model of the PCB is available for mechanical reference and enclosure design.
 
 <p float="left">
-  <img src="Docs/Images/3D-preview.png" width="412"/>
-  <img src="Docs/Images/Layout.png" width="412"/>
+  <img src="Docs/Images/3D-preview.png" width="500"/>
+  <img src="Docs/Images/Layout.png" width="324"/>
 </p>
 
 Download the 3D model:  
