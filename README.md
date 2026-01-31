@@ -95,7 +95,10 @@ Board dimensions: **36 cm × 36 cm**
 
 ![PCB Layer Stackup & Legend](Docs/Images/layer-stack.png)
 
-![Design Specs](Docs/Images/design.png)
+<p float="left">
+  <img src="Docs/Images/Layout.png" width="500"/>
+  <img src="Docs/Images/design.png" width="500"/>
+</p>
 
 ---
 
