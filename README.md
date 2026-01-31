@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-> NOTE
+> NOTE :
 > This project is a result of independent, self-directed study into professional PCB and circuit design. 
 > I have implemented an industry-standard design flow modeled after professional methodologies, 
 > such as those shared by Phil’s Lab. As this is a learning-focused implementation, 
