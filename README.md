@@ -79,8 +79,6 @@ Key elements:
 
 The USB-C port supports both power input and data transfer, enabling a single-cable interface for development and data logging.
 
-![Power and USB-C Subsystem Diagram](docs/diagrams/power-usb.png)
-
 ---
 
 ## 5. PCB Stackup & Layout
