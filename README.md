@@ -177,7 +177,7 @@ A complete 3D model of the PCB is available for mechanical reference and enclosu
 </p>
 
 Download the 3D model:  
-[PCB STEP Model](docs/3d/stm32-imu-board.step)
+[PCB STEP Model](Docs/Project-Files/stm32-imu-board.step)
 
 ---
 
