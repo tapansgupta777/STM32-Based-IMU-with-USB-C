@@ -4,8 +4,8 @@
 
 > NOTE :
 > This project is a result of independent, self-directed study into professional PCB and circuit design. 
-> I have implemented an industry-standard design flow modeled after professional methodologies, 
-> such as those shared by Phil’s Lab. As this is a learning-focused implementation, 
+> I have implemented an industry-standard design flow modeled after professional methodologies
+> . As this is a learning-focused implementation, 
 > certain oversights or errors may exist. I highly value constructive feedback, 
 > technical suggestions, or design recommendations to further my growth in this field.
 
