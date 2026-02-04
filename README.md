@@ -3,7 +3,7 @@
 ## 1. Project Overview
 
 > NOTE :
-> This project is a result of independent, self-directed study into professional PCB and circuit design. 
+> This project is a result of independent, self-directed study into professional PCB and circuit design 
 > I have implemented an industry-standard design flow modeled after professional methodologies
 > . As this is a learning-focused implementation, 
 > certain oversights or errors may exist. I highly value constructive feedback, 
